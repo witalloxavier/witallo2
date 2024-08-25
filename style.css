@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 29px;
+}
+
+.menu-link {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    margin-right: 15px;
+    color: #989D9C;
+    letter-spacing: 0.6px;
+
+}
+
+.button-login {
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    color: #ffffff;
+    background: #665AE1;
+    border: none;
+    font-weight: 600;
+    border-radius: 50px;
+    font-size: 24px;
+
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    margin-top: 120px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 70px;
+
+}
+
+p {
+    margin-top: 40px;
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #848484;
+    ;
+
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    margin-top: 120px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121.9px;
+    color: #515151;
+    ;
+}
+
+h2 {
+    margin-top: 20px;
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+
+}
+
+.button-explore {
+    margin-top: 60px;
+
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    background: #000000;
+    background: #ADFF00;
+    font-weight: 700;
+    font-size: 28px;
+    border: none;
+
+
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    img {
+        width: 354px;
+        height: 317px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 140px;
+    }
+
+
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60.95px;
+        text-align: center;
+        color: #515151;
+        margin-top: 50px;
+        margin-bottom: 20px;
+
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .button-explore {
+        display: block;
+        margin: 0 auto;
+        margin-top: 22px;
+        cursor: pointer;
+    }
+
+@media screen and (max-width: 375px) and (orientation: portrait) {
+    img { margin-top: 70px;
+    
+    }
+}
+
+
+
+
+}
